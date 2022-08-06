@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(15, 8, 54);
+  height: 100vh;
+}
+.main-page {
+  display: grid;
+  grid-template-columns: repeat(5, 7fr);
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-top: dotted 1px white;
+  border-bottom: dotted 1px white;
+  padding-top: 2%;
+}
+/
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom: dotted 1px white;
+  padding-top: 2%;
+}
+h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;  
+  padding-top: 2%;
+}
+.conversor {
+  color: aliceblue;
+  background-color: gray;
+  height: 50vh;
+  width: 30%;
+}
+.search-button {
+  color: white;
+  background-color: rgb(29, 60, 107);
+}
